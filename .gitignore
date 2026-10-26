@@ -1,0 +1,7 @@
+.runtime/
+.data/
+.env
+LocalSettings.php
+__pycache__/
+*.pyc
+node_modules/

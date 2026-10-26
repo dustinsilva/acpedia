@@ -1,0 +1,40 @@
+{
+  "content": {
+    "file_id": "1zZ4R4ewANWB-m92zVs4sPIE2Z8tboFIA",
+    "name": "acpediaorg-20210615-wikidump.tar.gz",
+    "sha256": "24227485b273eb87812661d431ad03c802b4409ea80fa25eb78705dab72adcb5",
+    "pages": 53964,
+    "revisions": 274502
+  },
+  "images": {
+    "file_id": "11IPYwHyiZpYDXq8jlS32UfrqgV2FMQBE",
+    "name": "acpediaorg-20180217-imagedump.tar.gz",
+    "bytes": 1456313082,
+    "sha256": "7472c98d2500461e10609dccbd9ee562404f8069ade14711c086a4b8040214d0"
+  },
+  "image_supplement": {
+    "file_id": "1K9E6fVxarRjxhFmIGPMZ-9IhS2-VGi7w",
+    "name": "acpediaorg-2018-to-2024-images.zip",
+    "sha256": "24f0e623ca2a5f2db82523ee988ecd77fdbe222d6147eb5bd3a703d022ca20d8"
+  },
+  "mediawiki": {
+    "version": "1.43.11",
+    "url": "https://releases.wikimedia.org/mediawiki/1.43/mediawiki-1.43.11.tar.gz",
+    "sha256": "86a5b8e2fb7ca10228d66c8b2659a0a692958e5c520fd023c78bd713a68142f0"
+  },
+  "php_windows": {
+    "version": "8.3.36",
+    "url": "https://downloads.php.net/~windows/releases/archives/php-8.3.36-nts-Win32-vs16-x64.zip",
+    "sha256": "3c9242622c7402b47c38d2ec2ed779cef3a290fd6f2bde6c35f9c482699e7900"
+  },
+  "extensions": {
+    "Variables": {
+      "url": "https://github.com/wikimedia/mediawiki-extensions-Variables.git",
+      "commit": "12ad832a68e1a002c821f5d1c127b04ac047181e"
+    },
+    "LabeledSectionTransclusion": {
+      "url": "https://github.com/wikimedia/mediawiki-extensions-LabeledSectionTransclusion.git",
+      "commit": "923701b44703cfcd639d8d399141b194c62c802a"
+    }
+  }
+}
