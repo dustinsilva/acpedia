@@ -6,7 +6,7 @@ The local restoration runs real MediaWiki. It needs a PHP host and persistent da
 
 The public check on October 25, 2026 resolved the domain to Cloudflare addresses and returned HTTP **526**. Cloudflare documents this as failure to validate the origin server's SSL certificate: https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-526/ . Confirm the origin has a valid certificate covering `acpedia.celestro.com`, the complete certificate chain, and a working HTTPS virtual host. Retain strict certificate validation. We have not changed DNS, certificate settings, or hosting configuration.
 
-The hosting provider/control panel, document root, server access method and PHP/database capabilities still need confirmation. Never commit hosting credentials or paste private keys into the repository.
+The owner clarified that hosting for this subdomain is not in place yet. The provider/control panel, document root, server access method and PHP/database capabilities can be selected later; the earlier 526 was a pre-deployment observation, not a deployed-wiki error. Never commit hosting credentials or paste private keys into the repository.
 
 ## Host requirements
 

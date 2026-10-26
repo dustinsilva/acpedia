@@ -36,5 +36,10 @@
       "url": "https://github.com/wikimedia/mediawiki-extensions-LabeledSectionTransclusion.git",
       "commit": "923701b44703cfcd639d8d399141b194c62c802a"
     }
+  },
+  "apcu_windows": {
+    "version": "5.1.28",
+    "url": "https://downloads.php.net/~windows/pecl/releases/apcu/5.1.28/php_apcu-5.1.28-8.3-nts-vs16-x64.zip",
+    "sha256": "1ff653f7a7375f3ebd04d33f5da611aad602c80728b00c1a52143bfec815fa17"
   }
 }

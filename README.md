@@ -23,7 +23,7 @@ python scripts/bootstrap.py
 ./scripts/start.ps1
 ```
 
-The bootstrap downloads the pinned backups and runtime, imports ACPedia's pages and histories, registers recovered image binaries, imports the image supplement's File-page records, and rebuilds search/link indexes. Expect several GB of storage and time for the first import. Interrupted steps can be resumed; existing image records are skipped. `--latest-only` deliberately skips older revisions for a faster first restoration. Check command exit codes and run the smoke test before calling an interrupted restoration complete.
+The bootstrap downloads the pinned backups and runtime, imports ACPedia's pages and histories, registers recovered image binaries, imports the image supplement's File-page records, and rebuilds search/link indexes. Allow about 20 GB of free storage for the source archives, live media/database and temporary isolated index snapshots. The first import takes time. Interrupted steps can be resumed; existing image records are skipped. `--latest-only` deliberately skips older revisions for a faster first restoration. Check command exit codes and run the smoke test before calling an interrupted restoration complete.
 
 Sources and runtime versions are recorded in `sources.lock.json`. The page backup contains **53,964 page records and 274,502 revision records**; the image base and supplement provide approximately **57,900 unique media files**. `docs/RESTORATION.md` records measured local results and remaining limits.
 
@@ -31,7 +31,7 @@ Downloads, database files, credentials, generated configuration and cache files 
 
 ## Deployment
 
-See `docs/DEPLOYMENT.md`. A GitHub repository or GitHub Pages alone cannot execute MediaWiki. This restoration requires a PHP/database host with persistent storage. The domain currently resolves through Cloudflare; the initial public check returned 526 (origin SSL certificate validation failed). Hosting configuration/access is needed to publish and correct that certificate. No live hosting or DNS settings have been modified by this project.
+See `docs/DEPLOYMENT.md`. A GitHub repository or GitHub Pages alone cannot execute MediaWiki. This restoration requires a PHP/database host with persistent storage. The domain currently resolves through Cloudflare; the initial public check returned 526 (origin SSL certificate validation failed). The owner confirmed hosting has not been provisioned yet. Hosting can be connected after reviewing the local restoration. No live hosting or DNS settings have been modified by this project.
 
 ## Original appearance and compatibility
 

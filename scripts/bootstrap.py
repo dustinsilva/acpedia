@@ -32,6 +32,6 @@ def main():
  if (data/'image-supplement.xml').exists():maintenance('importDump','--no-updates','--username-prefix','acpedia-archive',data/'image-supplement.xml')
  if not args.latest_only and not (data/'history-imported.ok').exists():
   call('import-history.py');(data/'history-imported.ok').touch()
- maintenance('rebuildtextindex');maintenance('refreshLinks','--verbose');maintenance('initSiteStats','--update')
+ call('restore-current.py');maintenance('rebuildtextindex');call('parallel-index.py');maintenance('initSiteStats','--update')
  print('Restored. Run scripts/start.ps1 and open http://127.0.0.1:8770/wiki/Home')
 if __name__=='__main__':main()

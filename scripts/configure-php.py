@@ -3,4 +3,5 @@ r=pathlib.Path(__file__).resolve().parents[1]/'.runtime/php';ini='[PHP]\nextensi
 for e in ['openssl','mbstring','intl','fileinfo','sqlite3','pdo_sqlite','curl','gd']:
  ini+='extension='+e+'\n'
 ini+='\nzend_extension=opcache\nopcache.enable_cli=1\nopcache.memory_consumption=256\nopcache.max_accelerated_files=40000\nopcache.validate_timestamps=1\nopcache.revalidate_freq=1\n'
+if (r/'ext/php_apcu.dll').exists():ini+='\nextension=apcu\napc.enable_cli=1\napc.shm_size=256M\n'
 (r/'php.ini').write_text(ini)

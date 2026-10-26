@@ -1,4 +1,4 @@
-"""Public, resumable ACPedia restoration downloads. No credentials are required."""
+"""Public, repeatable ACPedia restoration downloads. No credentials are required."""
 import argparse,concurrent.futures,hashlib,json,pathlib,re,shutil,urllib.parse,urllib.request,zipfile,tarfile
 from html.parser import HTMLParser
 ROOT=pathlib.Path(__file__).resolve().parents[1]
@@ -67,8 +67,13 @@ def runtime():
  r=ROOT/'.runtime';r.mkdir(exist_ok=True)
  def php():
   p=download('https://downloads.php.net/~windows/releases/archives/php-8.3.36-nts-Win32-vs16-x64.zip',r/'php.zip','3c9242622c7402b47c38d2ec2ed779cef3a290fd6f2bde6c35f9c482699e7900');unpack(p,r/'php')
+  lock=json.loads((ROOT/'sources.lock.json').read_text());cache=lock.get('apcu_windows')
+  if cache:
+   archive=download(cache['url'],r/'apcu.zip',cache['sha256'])
+   with zipfile.ZipFile(archive) as z:
+    dll=next(n for n in z.namelist() if n.endswith('php_apcu.dll'));(r/'php/ext/php_apcu.dll').write_bytes(z.read(dll))
  def mw():
-  p=download('https://releases.wikimedia.org/mediawiki/1.43/mediawiki-1.43.11.tar.gz',r/'mediawiki.tar.gz');unpack(p,r)
+  lock=json.loads((ROOT/'sources.lock.json').read_text());p=download(lock['mediawiki']['url'],r/'mediawiki.tar.gz',lock['mediawiki'].get('sha256'));unpack(p,r)
  with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
   for f in [pool.submit(php),pool.submit(mw)]:f.result()
 

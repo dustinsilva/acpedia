@@ -47,6 +47,11 @@ $wgLogo = '/restoration-assets/wiki.png';
 if (getenv('ACPEDIA_SERVER')) { $wgServer = getenv('ACPEDIA_SERVER'); $wgCanonicalServer = $wgServer; }
 $wgGroupPermissions['sysop']['edit'] = true;
 // Persistent local caches keep repeated template-heavy archive pages fast.
-$wgMainCacheType = CACHE_DB;
-$wgMessageCacheType = CACHE_DB;
+$wgMainCacheType = function_exists('apcu_fetch') ? CACHE_ACCEL : CACHE_DB;
+$wgMessageCacheType = $wgMainCacheType;
 $wgParserCacheType = CACHE_DB;
+// Isolated index workers use private database snapshots while reading the same archive.
+if (getenv('ACPEDIA_INDEX_DB')) {
+    $wgSQLiteDataDir = getenv('ACPEDIA_INDEX_DB');
+    $wgCachePrefix = 'acpedia-index-' . basename($wgSQLiteDataDir);
+}
