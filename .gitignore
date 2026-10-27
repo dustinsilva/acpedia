@@ -1,0 +1,11 @@
+.runtime/
+.data/
+.env
+LocalSettings.php
+__pycache__/
+*.pyc
+node_modules/
+# Ubuntu installer populates public/ with the pinned MediaWiki distribution.
+public/*
+!public/wiki.png
+!public/.htaccess
