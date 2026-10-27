@@ -8,6 +8,12 @@ The public check on October 25, 2026 resolved the domain to Cloudflare addresses
 
 The owner clarified that hosting for this subdomain is not in place yet. The provider/control panel, document root, server access method and PHP/database capabilities can be selected later; the earlier 526 was a pre-deployment observation, not a deployed-wiki error. Never commit hosting credentials or paste private keys into the repository.
 
+## Ubuntu installer (existing Apache and MySQL)
+
+Run `sudo ./install.sh` from the checkout after creating an empty database and user.
+Keep Apache's DocumentRoot at `<checkout>/public`. See the README quick start.
+The previous manual setup below remains available for hosts managed differently.
+
 ## Host requirements
 
 - A maintained PHP release supported by MediaWiki 1.43; the local verified runtime is PHP 8.3.36.

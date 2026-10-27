@@ -1,0 +1,8 @@
+DirectoryIndex index.php
+Options -Indexes
+RewriteEngine On
+RewriteRule ^wiki/(.*)$ index.php?title=$1 [B,QSA,L]
+RewriteRule ^(?:\.data|\.runtime|maintenance|mw-config|tests|vendor)(?:/|$) - [F,L,NC]
+<FilesMatch "(?i)^(LocalSettings\.php|composer\.(json|lock)|.*\.(sqlite|sql|bak))$">
+    Require all denied
+</FilesMatch>

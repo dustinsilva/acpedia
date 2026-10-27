@@ -4,6 +4,44 @@ Restores the original **AC Community Wiki / ACPedia** into a supported MediaWiki
 
 This repository is a restoration project, not the earlier Ultimate Wiki prototype. It uses the original ACPedia article text, templates, categories, Vector skin, shared styling, logo and navigation. It does not substitute Fandom content or rewrite the archived articles.
 
+## Ubuntu + existing Apache/MySQL: quick start
+
+From your server's checkout of this repository:
+
+```bash
+git checkout master
+git pull --ff-only
+sudo ./install.sh
+```
+
+Create an **empty MySQL database and database user** first. The installer prompts
+for host, database, user and password; it creates the MediaWiki tables. It downloads
+the pinned runtime and ACPedia backups, restores articles/images and rebuilds indexes.
+The first run needs roughly **20 GB free** and can take a substantial amount of time.
+Run it in `tmux` if your SSH session might disconnect. Rerun the same command after
+an interruption; successful import stages are remembered.
+
+**Apache DocumentRoot stays `<checkout>/public`.** The installer installs MediaWiki
+there and enables a narrowly scoped Apache directory configuration for its rewrite
+rules. Your existing domain, virtual host and TLS configuration stay in place.
+Apache must already execute PHP for this site. Root/sudo access is needed for packages,
+Apache directory settings and file permissions; MySQL server installation is not changed.
+
+- Database credentials: **`.data/LocalSettings.php`**, with a protected link at
+  `public/LocalSettings.php`. Edit the private file locally; it is ignored by Git.
+- Wiki administrator: `RestorationAdmin`; generated password: `.data/admin-password.txt`.
+- Articles use their latest archived revisions initially. Add `--full-history` to
+  also import all original historical revisions (slower).
+- Optional: `--server https://other.example`, `--skip-apache` for manually managed
+  directory settings, or `--skip-content` to test an empty installation first.
+- Backups, images and credentials remain in `.data/`, outside the web root.
+- Downloads are checked against `sources.lock.json`. Existing unrelated
+  `public/index.php` installations are refused rather than overwritten.
+
+The Ubuntu installer has automated contract/safety tests. The full Ubuntu/MySQL
+restoration must still be verified on the target server; the earlier measured
+content restoration was on Windows/SQLite.
+
 ## Local preview
 
 Once restored, run:

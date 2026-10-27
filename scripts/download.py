@@ -39,6 +39,7 @@ def download(url,path,expected=None):
  return path
 
 def drive(fid,path,expected=None):
+ if pathlib.Path(path).exists():return download('',path,expected)
  page=urllib.request.urlopen('https://drive.google.com/file/d/'+fid+'/view',timeout=40).read().decode()
  url=json.loads('"'+re.search(r'"(https://drive.usercontent.google.com/uc[^" ]+)"',page)[1]+'"')
  return download(url,path,expected)
