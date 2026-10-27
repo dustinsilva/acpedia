@@ -74,6 +74,27 @@ def ensure_webroot(runtime, public, state):
         pending.unlink(missing_ok=True)
 
 
+def prepare_media(webmedia, media):
+    """Replace only the distribution's upload skeleton, preserving files on failure."""
+    media.mkdir(exist_ok=True,mode=0o2770)
+    if webmedia.is_symlink():
+        if webmedia.resolve()!=media.resolve():
+            raise RuntimeError('Unexpected public/images symlink')
+        return
+    if webmedia.exists():
+        if not webmedia.is_dir():
+            raise RuntimeError('Existing public/images is not a directory')
+        entries=list(webmedia.iterdir())
+        if any(p.name not in ('.htaccess','README') or not p.is_file() or p.is_symlink() for p in entries):
+            raise RuntimeError('Existing public/images is not an empty distribution directory; refusing to replace it')
+        # Copy everything successfully before removing any originals. A failed run
+        # can repeat this step without losing protection files or resetting MySQL.
+        for path in entries:shutil.copy2(path,media/path.name)
+        for path in entries:path.unlink()
+        webmedia.rmdir()
+    webmedia.symlink_to(media,target_is_directory=True)
+
+
 def private_file(path, content):
     # Open with restrictive mode from creation, not after writing the password.
     fd=os.open(path,os.O_WRONLY|os.O_CREAT|os.O_TRUNC,0o600)
@@ -150,17 +171,8 @@ def main():
         if front.resolve()!=settings.resolve():raise RuntimeError('Unexpected LocalSettings.php symlink')
     elif front.exists():raise RuntimeError('Unexpected public/LocalSettings.php; not overwriting it')
     else:front.symlink_to(settings)
-    media=data/'images';media.mkdir(exist_ok=True,mode=0o2770)
-    webmedia=public/'images'
-    if webmedia.is_symlink():
-        if webmedia.resolve()!=media.resolve():raise RuntimeError('Unexpected public/images symlink')
-    elif webmedia.exists():
-        # Preserve the distribution's harmless upload protection files.
-        if any(p.name not in ('.htaccess','README') for p in webmedia.iterdir()):
-            raise RuntimeError('Existing public/images is not empty; refusing to replace it')
-        for p in webmedia.iterdir():shutil.copy2(p,media/p.name)
-        webmedia.rmdir();webmedia.symlink_to(media,target_is_directory=True)
-    else:webmedia.symlink_to(media,target_is_directory=True)
+    media=data/'images'
+    prepare_media(public/'images',media)
     # Media must never execute scripts even when symlinked outside public/.
     (media/'.htaccess').write_text('Options -Indexes\n<FilesMatch "(?i)\\.(php[0-9]*|phtml|phar|cgi|pl|py|sh)$">\nRequire all denied\n</FilesMatch>\n')
     gid=grp.getgrnam('www-data').gr_gid
