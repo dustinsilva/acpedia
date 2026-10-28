@@ -237,3 +237,79 @@ The original logo, article text, existing footer notices and project namespace
 routes are preserved. Branding uses output/skin hooks and configuration; it does
 not edit imported articles or run a database migration. Pulling the branding
 commit on the server activates it without rerunning the installer or image audit.
+
+## Full image-audit follow-up — 2026-10-28
+
+The supplied all-namespace audit checked 57,904 registered image binaries with
+zero missing originals and zero storage errors. Its 2,778 unresolved names account
+for 4,568 indexed page references; this is not a thumbnail/browser audit.
+
+The checksum-verified backups contain the same 57,904 unique image names. None of
+the requested missing names has an exact filename match. Reviewed alternatives
+are now recorded in `config/audited-image-aliases.json`:
+
+- 116 aliases follow conservative filename spelling/extension matches. Five
+  multi-spelling cases were accepted only when all candidate binaries had the
+  same live image hash; differing images and generic unknown icons were excluded.
+- 65 additional aliases follow explicit image fields on the canonical item or
+  creature page. Each records the source page and revision, not just a fuzzy
+  filename guess. This includes the documented Gearcrafting → Item Tinkering
+  Armature rename.
+- The 181 aliases cover 642 references in the supplied audit. Every old name was
+  verified unresolved and every target verified registered with real image bytes.
+- `Name.png` (501 references) and `File.jpg` (80) are placeholder links already
+  present in the 2021 text archive. They were not invented by this restoration.
+  This change leaves those historical articles untouched and does not fabricate
+  maps or photos. The reference counts span all namespaces and can overlap pages.
+- After these candidate repairs, 2,597 reported names / 3,926 references remain;
+  those figures include the two placeholders. Do not interpret the remainder as
+  proven permanently lost: a differently named source or later backup may exist.
+
+The audit comparison and live verification evidence are kept privately under
+`.data/image-audit-analysis/` in the analysis workspace. A repeatable offline
+filename comparison is available on the server:
+
+```bash
+cd /var/www/celestro.com/acpedia
+sudo python3 scripts/analyze-image-audit.py
+```
+
+The offline comparison only produces candidates. It never edits the wiki or
+turns an ambiguous match into an automatic repair.
+
+After merging/pulling this repair, preview and apply the reviewed aliases:
+
+```bash
+cd /var/www/celestro.com/acpedia
+sudo php public/maintenance/run.php ./scripts/repair-image-aliases.php
+sudo php public/maintenance/run.php ./scripts/repair-image-aliases.php --apply
+```
+
+The writer rechecks physical target size and SHA-1 before each redirect, never
+replaces existing media or file descriptions, and uses MediaWiki's new-page edit
+conflict protection. Each alias creates an attributed repair revision; original
+article text and original contributor credit remain unchanged. Reruns skip
+resolved names. Any changed target, unreadable file, existing description, or
+concurrent creation is reported and preserved for review. The command may apply
+eligible records and report skipped records with a nonzero exit status; inspect
+its summary before proceeding.
+
+Refresh the link index and rerun the full audit afterward:
+
+```bash
+sudo php public/maintenance/run.php refreshLinks
+sudo php public/maintenance/run.php ./scripts/audit-images.php
+sudo cat .data/image-audit/summary.json
+```
+
+Using `run.php` with `./scripts/...` resolves paths from the current working
+directory and avoids the deprecated direct-script invocation. See the
+[MediaWiki runner documentation](https://www.mediawiki.org/wiki/Manual:Run.php).
+Do not change ownership or permissions of the entire `.data` directory to share
+a report; copy only the report to a user-readable private location.
+
+Validation: 27 Python tests pass; PHP tests cover read-only preview, preserved
+files/descriptions, missing storage, changed bytes, edit conflicts, self redirects,
+duplicate manifests, and idempotent reruns. Existing salvage alias, link fallback,
+and YouTube regression checks pass. Actual MediaWiki/database application still
+requires running the maintenance command on the Ubuntu server.

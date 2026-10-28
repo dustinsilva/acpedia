@@ -1,0 +1,1589 @@
+{
+  "created_utc": "2026-10-28T08:41:53.029862Z",
+  "audit_utc": "2026-10-28T08:11:41+00:00",
+  "backup_sha256": {
+    "images": "7472c98d2500461e10609dccbd9ee562404f8069ade14711c086a4b8040214d0",
+    "image_supplement": "24f0e623ca2a5f2db82523ee988ecd77fdbe222d6147eb5bd3a703d022ca20d8",
+    "content": "24227485b273eb87812661d431ad03c802b4409ea80fa25eb78705dab72adcb5"
+  },
+  "aliases": [
+    {
+      "source": "Research Notes: \"Children of Darkness\" Icon.png",
+      "target": "Research Notes- \"Children of Darkness\" Icon.png",
+      "target_sha1": "a9132758774d1b4aec7172a1aa33b6b462dbaaa0",
+      "target_bytes": 2382,
+      "reported_page_count": 6,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Research Notes: Mosswart Icon.png",
+      "target": "Research Notes- Mosswart Icon.png",
+      "target_sha1": "4c2e16d223b3272c1adc4076b38eeb335a3a5984",
+      "target_bytes": 3181,
+      "reported_page_count": 6,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Luminous Amber: Bracers of Thunderous Blows Icon.png",
+      "target": "Luminous Amber Bracers of Thunderous Blows Icon.png",
+      "target_sha1": "49e7ef6183ef7760bc98457ddb5fd6c7b8ae2ddc",
+      "target_bytes": 2793,
+      "reported_page_count": 6,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Luminous Amber: Sollerets of the Storm Icon.png",
+      "target": "Luminous Amber Sollerets of the Storm Icon.png",
+      "target_sha1": "49e7ef6183ef7760bc98457ddb5fd6c7b8ae2ddc",
+      "target_bytes": 2793,
+      "reported_page_count": 6,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Book 3: The Time Ritual and the Sand Kings Icon.png",
+      "target": "Book 3 The Time Ritual and the Sand Kings Icon.png",
+      "target_sha1": "4c2e16d223b3272c1adc4076b38eeb335a3a5984",
+      "target_bytes": 3181,
+      "reported_page_count": 6,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Observations: Harraag Icon.png",
+      "target": "Observations- Harraag Icon.png",
+      "target_sha1": "4c2e16d223b3272c1adc4076b38eeb335a3a5984",
+      "target_bytes": 3181,
+      "reported_page_count": 5,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Observations and Instructions: Dojiro Sangi Icon.png",
+      "target": "Observations and Instructions- Dojiro Sangi Icon.png",
+      "target_sha1": "4c2e16d223b3272c1adc4076b38eeb335a3a5984",
+      "target_bytes": 3181,
+      "reported_page_count": 5,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Personal Research Notes: Tuskers Icon.png",
+      "target": "Personal Research Notes- Tuskers Icon.png",
+      "target_sha1": "4c2e16d223b3272c1adc4076b38eeb335a3a5984",
+      "target_bytes": 3181,
+      "reported_page_count": 5,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Book 1: The Apostates Icon.png",
+      "target": "Book 1 The Apostates Icon.png",
+      "target_sha1": "4c2e16d223b3272c1adc4076b38eeb335a3a5984",
+      "target_bytes": 3181,
+      "reported_page_count": 5,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Corrupted Amber: Bracers of the Corrupted Heart Icon.png",
+      "target": "Corrupted Amber Bracers of the Corrupted Heart Icon.png",
+      "target_sha1": "2c535dcbd73f6611b6b1c036a85101f42d17638d",
+      "target_bytes": 3080,
+      "reported_page_count": 5,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Corrupted Amber: Girth of the Corrupted Soul Icon.png",
+      "target": "Corrupted Amber Girth of the Corrupted Soul Icon.png",
+      "target_sha1": "2c535dcbd73f6611b6b1c036a85101f42d17638d",
+      "target_bytes": 3080,
+      "reported_page_count": 5,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Empowered Amber: Bracers of Life Icon.png",
+      "target": "Empowered Amber Bracers of Life Icon.png",
+      "target_sha1": "c2256f54cc7869f697b780601c87be7b825c8869",
+      "target_bytes": 2905,
+      "reported_page_count": 5,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Empowered Amber: Greaves of Life Icon.png",
+      "target": "Empowered Amber Greaves of Life Icon.png",
+      "target_sha1": "c2256f54cc7869f697b780601c87be7b825c8869",
+      "target_bytes": 2905,
+      "reported_page_count": 5,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Empowered Amber: Helm of Life Icon.png",
+      "target": "Empowered Amber Helm of Life Icon.png",
+      "target_sha1": "c2256f54cc7869f697b780601c87be7b825c8869",
+      "target_bytes": 2905,
+      "reported_page_count": 5,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Empowered Amber: Shield Reinforcement Icon.png",
+      "target": "Empowered Amber Shield Reinforcement Icon.png",
+      "target_sha1": "59c3b8fe98b1490d1b413811f7f39be6a9969034",
+      "target_bytes": 2601,
+      "reported_page_count": 5,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Empowered Amber: Sollerets of Life Icon.png",
+      "target": "Empowered Amber Sollerets of Life Icon.png",
+      "target_sha1": "c2256f54cc7869f697b780601c87be7b825c8869",
+      "target_bytes": 2905,
+      "reported_page_count": 5,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Luminous Amber: Breastplate of the Bulwark Icon.png",
+      "target": "Luminous Amber Breastplate of the Bulwark Icon.png",
+      "target_sha1": "49e7ef6183ef7760bc98457ddb5fd6c7b8ae2ddc",
+      "target_bytes": 2793,
+      "reported_page_count": 5,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Luminous Amber: Helm of Healing Icon.png",
+      "target": "Luminous Amber Helm of Healing Icon.png",
+      "target_sha1": "49e7ef6183ef7760bc98457ddb5fd6c7b8ae2ddc",
+      "target_bytes": 2793,
+      "reported_page_count": 5,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Luminous Amber: Shield Fortification Icon.png",
+      "target": "Luminous Amber Shield Fortification Icon.png",
+      "target_sha1": "49e7ef6183ef7760bc98457ddb5fd6c7b8ae2ddc",
+      "target_bytes": 2793,
+      "reported_page_count": 5,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Book 2: The Gurogs and the beginnings of the Plan Icon.png",
+      "target": "Book 2 The Gurogs and the beginnings of the Plan Icon.png",
+      "target_sha1": "4c2e16d223b3272c1adc4076b38eeb335a3a5984",
+      "target_bytes": 3181,
+      "reported_page_count": 5,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Book 4: Further Manipulations of Time Icon.png",
+      "target": "Book 4 Further Manipulations of Time Icon.png",
+      "target_sha1": "4c2e16d223b3272c1adc4076b38eeb335a3a5984",
+      "target_bytes": 3181,
+      "reported_page_count": 5,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Aug Gem: Society Icon.png",
+      "target": "Contract for Aug Gem- Society Icon.png",
+      "target_sha1": "6245ec978e8744d57f9cc490af1a4d9a15962b22",
+      "target_bytes": 2396,
+      "reported_page_count": 5,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Bag labeled \"Black\" Icon.png",
+      "target": "Bag labeled Black Icon.png",
+      "target_sha1": "0bb1a49adff472eb7ce671c6815389c07ef4e36f",
+      "target_bytes": 2081,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Bag labeled \"Mixed\" Icon.png",
+      "target": "Bag labeled Mixed Icon.png",
+      "target_sha1": "fac97a24e9a94ba9fc6936fde491a31869ffe87d",
+      "target_bytes": 2071,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Bag labeled \"White\" Icon.png",
+      "target": "Bag labeled White Icon.png",
+      "target_sha1": "f2a1ead2306bedf63d626cd7a88b8e33d386d884",
+      "target_bytes": 2066,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Quest of the Month: Bi-Weekly Icon.png",
+      "target": "Contract for Quest of the Month- Bi-Weekly Icon.png",
+      "target_sha1": "ac64859d2964989576b64dc589680b66853b5ec3",
+      "target_bytes": 2392,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Quest of the Month: Monthly Icon.png",
+      "target": "Contract for Quest of the Month- Monthly Icon.png",
+      "target_sha1": "ac64859d2964989576b64dc589680b66853b5ec3",
+      "target_bytes": 2392,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Quest of the Month: Weekly Icon.png",
+      "target": "Contract for Quest of the Month- Weekly Icon.png",
+      "target_sha1": "c64dd35643fcfa803f6cbe14aeb37d86a45d00ca",
+      "target_bytes": 2476,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Title Token: Guardian of the Dark Icon.png",
+      "target": "Title Token Guardian of the Dark Icon.png",
+      "target_sha1": "9eaa8066408ca7b0bd3282b2daf5513cc62ca2d3",
+      "target_bytes": 2583,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "\"Assassin's Crossbow\" Summoning Gem Icon.png",
+      "target": "Assassin's Crossbow Summoning Gem Icon.png",
+      "target_sha1": "2c55e5c8569eadd1bd52d80d0d53d7c3dbd56479",
+      "target_bytes": 2468,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "\"Assassin's Dagger\" Summoning Gem Icon.png",
+      "target": "Assassin's Dagger Summoning Gem Icon.png",
+      "target_sha1": "79a926b87783a8d06ba53192a0e3ccb77e2fbcc7",
+      "target_bytes": 2297,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "\"Bloodletter\" Summoning Gem Icon.png",
+      "target": "Bloodletter Summoning Gem Icon.png",
+      "target_sha1": "958d011e728a2919b3d644b8100a8525d209eefd",
+      "target_bytes": 2347,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "\"Burning Bow\" Summoning Gem Icon.png",
+      "target": "Burning Bow Summoning Gem Icon.png",
+      "target_sha1": "cf6002794f9d15787660ba6fb00a1184d75baff2",
+      "target_bytes": 2241,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "\"Chorizite Staff\" Summoning Gem Icon.png",
+      "target": "Chorizite Staff Summoning Gem Icon.png",
+      "target_sha1": "429992854480fd361d64e135ca72431d7d528505",
+      "target_bytes": 2324,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "\"Club of Undead Bashing\" Summoning Gem Icon.png",
+      "target": "Club of Undead Bashing Summoning Gem Icon.png",
+      "target_sha1": "723681400634a8610ac023c71869f99fdcb5c654",
+      "target_bytes": 2307,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "\"Commoner's Sword\" Summoning Gem Icon.png",
+      "target": "Commoner's Sword Summoning Gem Icon.png",
+      "target_sha1": "bc05fa64d76e119cf39704baff1519d8ea3f8342",
+      "target_bytes": 2346,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "\"Commoner's Two Handed Sword\" Summoning Gem Icon.png",
+      "target": "Commoner's Two Handed Sword Summoning Gem Icon.png",
+      "target_sha1": "bc05fa64d76e119cf39704baff1519d8ea3f8342",
+      "target_bytes": 2346,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "\"Doom Hammer\" Summoning Gem Icon.png",
+      "target": "Doom Hammer Summoning Gem Icon.png",
+      "target_sha1": "3f363deacfa3db0b62d34e29e869d494ec27ce23",
+      "target_bytes": 2447,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "\"Ice Wand\" Summoning Gem Icon.png",
+      "target": "Ice Wand Summoning Gem Icon.png",
+      "target_sha1": "f14c6339b91448f3651fa08ffbcc08c22ef17168",
+      "target_bytes": 2335,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "\"Lord's Sword\" Summoning Gem Icon.png",
+      "target": "Lord's Sword Summoning Gem Icon.png",
+      "target_sha1": "bc05fa64d76e119cf39704baff1519d8ea3f8342",
+      "target_bytes": 2346,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "\"Throwing Daggers of Ice\" Summoning Gem Icon.png",
+      "target": "Throwing Daggers of Ice Summoning Gem Icon.png",
+      "target_sha1": "64060854509a5b8e211e83e4c7fbf98c9ce0597a",
+      "target_bytes": 2411,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "\"Vampire's Kiss\" Summoning Gem Icon.png",
+      "target": "Vampire's Kiss Summoning Gem Icon.png",
+      "target_sha1": "667d1146371d30125d4a972be833c880a52fe7f0",
+      "target_bytes": 2316,
+      "reported_page_count": 4,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Olthoi Queens: Locations and Findings Icon.png",
+      "target": "Olthoi Queens - Locations and Findings Icon.png",
+      "target_sha1": "4c2e16d223b3272c1adc4076b38eeb335a3a5984",
+      "target_bytes": 3181,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Kill: Tenebrous Rifts Icon.png",
+      "target": "Contract for Kill- Tenebrous Rifts Icon.png",
+      "target_sha1": "ac64859d2964989576b64dc589680b66853b5ec3",
+      "target_bytes": 2392,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Kill: Umbral Rifts Icon.png",
+      "target": "Contract for Kill- Umbral Rifts Icon.png",
+      "target_sha1": "ac64859d2964989576b64dc589680b66853b5ec3",
+      "target_bytes": 2392,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Luminous Amber: Greaves of the Tower Icon.png",
+      "target": "Luminous Amber Greaves of the Tower Icon.png",
+      "target_sha1": "49e7ef6183ef7760bc98457ddb5fd6c7b8ae2ddc",
+      "target_bytes": 2793,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Jailbreak: Ardent Leader Icon.png",
+      "target": "Contract for Jailbreak- Ardent Leader Icon.png",
+      "target_sha1": "6245ec978e8744d57f9cc490af1a4d9a15962b22",
+      "target_bytes": 2396,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Jailbreak: Blessed Leader Icon.png",
+      "target": "Contract for Jailbreak- Blessed Leader Icon.png",
+      "target_sha1": "6245ec978e8744d57f9cc490af1a4d9a15962b22",
+      "target_bytes": 2396,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Jailbreak: General Population Icon.png",
+      "target": "Contract for Jailbreak- General Population Icon.png",
+      "target_sha1": "6245ec978e8744d57f9cc490af1a4d9a15962b22",
+      "target_bytes": 2396,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Jailbreak: Verdant Leader Icon.png",
+      "target": "Contract for Jailbreak- Verdant Leader Icon.png",
+      "target_sha1": "6245ec978e8744d57f9cc490af1a4d9a15962b22",
+      "target_bytes": 2396,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Aug Gem: Diemos Icon.png",
+      "target": "Contract for Aug Gem- Diemos Icon.png",
+      "target_sha1": "6245ec978e8744d57f9cc490af1a4d9a15962b22",
+      "target_bytes": 2396,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Aug Gem: Luminance Icon.png",
+      "target": "Contract for Aug Gem- Luminance Icon.png",
+      "target_sha1": "bd7eef7d4c0347cdf909d517cb38bcb257bfe7aa",
+      "target_bytes": 2399,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Stipend: General Icon.png",
+      "target": "Contract for Stipend- General Icon.png",
+      "target_sha1": "7e385de435d91cd602f3b9cb7308de40209c6904",
+      "target_bytes": 2899,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Killtask: Gurog Henchmen Icon.png",
+      "target": "Contract for Killtask- Gurog Henchmen Icon.png",
+      "target_sha1": "fb0651a92a8fad8d557411247afa00fa8a5135ac",
+      "target_bytes": 2401,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Killtask: Gurog Minions Icon.png",
+      "target": "Contract for Killtask- Gurog Minions Icon.png",
+      "target_sha1": "fb0651a92a8fad8d557411247afa00fa8a5135ac",
+      "target_bytes": 2401,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Killtask: Gurog Soldiers Icon.png",
+      "target": "Contract for Killtask- Gurog Soldiers Icon.png",
+      "target_sha1": "fb0651a92a8fad8d557411247afa00fa8a5135ac",
+      "target_bytes": 2401,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Aug Gem: Sir Bellas Icon.png",
+      "target": "Contract for Aug Gem- Sir Bellas Icon.png",
+      "target_sha1": "ac64859d2964989576b64dc589680b66853b5ec3",
+      "target_bytes": 2392,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Clutch of Kings: All Icon.png",
+      "target": "Contract for Clutch of Kings- All Icon.png",
+      "target_sha1": "f9f267b54c00b3d752c1d7681227bec31bd5fc05",
+      "target_bytes": 2408,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Clutch of Kings: Broodu Icon.png",
+      "target": "Contract for Clutch of Kings- Broodu Icon.png",
+      "target_sha1": "e956511bd6c76563ba4a113ce86a6ccaaacea62e",
+      "target_bytes": 2417,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Clutch of Kings: Browerk Icon.png",
+      "target": "Contract for Clutch of Kings- Browerk Icon.png",
+      "target_sha1": "f9f267b54c00b3d752c1d7681227bec31bd5fc05",
+      "target_bytes": 2408,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Clutch of Kings: Keerik Icon.png",
+      "target": "Contract for Clutch of Kings- Keerik Icon.png",
+      "target_sha1": "e956511bd6c76563ba4a113ce86a6ccaaacea62e",
+      "target_bytes": 2417,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Clutch of Kings: Kiree Icon.png",
+      "target": "Contract for Clutch of Kings- Kiree Icon.png",
+      "target_sha1": "f9f267b54c00b3d752c1d7681227bec31bd5fc05",
+      "target_bytes": 2408,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Clutch of Kings: Reeshan Icon.png",
+      "target": "Contract for Clutch of Kings- Reeshan Icon.png",
+      "target_sha1": "f9f267b54c00b3d752c1d7681227bec31bd5fc05",
+      "target_bytes": 2408,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Clutch of Kings: Rehir Icon.png",
+      "target": "Contract for Clutch of Kings- Rehir Icon.png",
+      "target_sha1": "e956511bd6c76563ba4a113ce86a6ccaaacea62e",
+      "target_bytes": 2417,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Kill: Rynthid Slayers Icon.png",
+      "target": "Contract for Kill- Rynthid Slayers Icon.png",
+      "target_sha1": "bd7eef7d4c0347cdf909d517cb38bcb257bfe7aa",
+      "target_bytes": 2399,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Quest of the Month: Weekly 1 Icon.png",
+      "target": "Contract for Quest of the Month- Weekly 1 Icon.png",
+      "target_sha1": "c64dd35643fcfa803f6cbe14aeb37d86a45d00ca",
+      "target_bytes": 2476,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Quest of the Month: Weekly 2 Icon.png",
+      "target": "Contract for Quest of the Month- Weekly 2 Icon.png",
+      "target_sha1": "c64dd35643fcfa803f6cbe14aeb37d86a45d00ca",
+      "target_bytes": 2476,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Quest of the Month: Weekly 3 Icon.png",
+      "target": "Contract for Quest of the Month- Weekly 3 Icon.png",
+      "target_sha1": "c64dd35643fcfa803f6cbe14aeb37d86a45d00ca",
+      "target_bytes": 2476,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Stipend: Celestial Hand Icon.png",
+      "target": "Contract for Stipend- Celestial Hand Icon.png",
+      "target_sha1": "6245ec978e8744d57f9cc490af1a4d9a15962b22",
+      "target_bytes": 2396,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Stipend: Eldrytch Web Icon.png",
+      "target": "Contract for Stipend- Eldrytch Web Icon.png",
+      "target_sha1": "6245ec978e8744d57f9cc490af1a4d9a15962b22",
+      "target_bytes": 2396,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Stipend: Radiant Blood Icon.png",
+      "target": "Contract for Stipend- Radiant Blood Icon.png",
+      "target_sha1": "6245ec978e8744d57f9cc490af1a4d9a15962b22",
+      "target_bytes": 2396,
+      "reported_page_count": 3,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Kill: Spectral Archers Icon.png",
+      "target": "Contract for Kill- Spectral Archers Icon.png",
+      "target_sha1": "bd7eef7d4c0347cdf909d517cb38bcb257bfe7aa",
+      "target_bytes": 2399,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Kill: Spectral Blades and Claws Icon.png",
+      "target": "Contract for Kill- Spectral Blades and Claws Icon.png",
+      "target_sha1": "bd7eef7d4c0347cdf909d517cb38bcb257bfe7aa",
+      "target_bytes": 2399,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Kill: Spectral Bushi Icon.png",
+      "target": "Contract for Kill- Spectral Bushi Icon.png",
+      "target_sha1": "bd7eef7d4c0347cdf909d517cb38bcb257bfe7aa",
+      "target_bytes": 2399,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Kill: Spectral Mages Icon.png",
+      "target": "Contract for Kill- Spectral Mages Icon.png",
+      "target_sha1": "bd7eef7d4c0347cdf909d517cb38bcb257bfe7aa",
+      "target_bytes": 2399,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Kill: Spectral Minions Icon.png",
+      "target": "Contract for Kill- Spectral Minions Icon.png",
+      "target_sha1": "bd7eef7d4c0347cdf909d517cb38bcb257bfe7aa",
+      "target_bytes": 2399,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Kill: Spectral Nanjou Shou-jen Icon.png",
+      "target": "Contract for Kill- Spectral Nanjou Shou-jen Icon.png",
+      "target_sha1": "bd7eef7d4c0347cdf909d517cb38bcb257bfe7aa",
+      "target_bytes": 2399,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Kill: Spectral Samurai Golems Icon.png",
+      "target": "Contract for Kill- Spectral Samurai Golems Icon.png",
+      "target_sha1": "bd7eef7d4c0347cdf909d517cb38bcb257bfe7aa",
+      "target_bytes": 2399,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Kill: Spectral Samurai Icon.png",
+      "target": "Contract for Kill- Spectral Samurai Icon.png",
+      "target_sha1": "bd7eef7d4c0347cdf909d517cb38bcb257bfe7aa",
+      "target_bytes": 2399,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Kill: Gear Knights Icon.png",
+      "target": "Contract for Kill- Gear Knights Icon.png",
+      "target_sha1": "6245ec978e8744d57f9cc490af1a4d9a15962b22",
+      "target_bytes": 2396,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Golem Hunting: Lost City of Neftet (Level 200+) Icon.png",
+      "target": "Golem Hunting Lost City of Neftet (Level 200+) Icon.png",
+      "target_sha1": "fe1645b7eaa75fe2ed7ac2f5ec149ac112acf603",
+      "target_bytes": 2398,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Alduressa Boots (Loot) Icon.png",
+      "target": "Alduressa Boots Loot Icon.png",
+      "target_sha1": "394a51b5cb01f0498cc8d76521aa3025d8870f07",
+      "target_bytes": 2348,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Alduressa Gauntlets (Loot) Icon.png",
+      "target": "Alduressa Gauntlets Loot Icon.png",
+      "target_sha1": "b651558b178444e54b221776ef3be936a70a5a07",
+      "target_bytes": 2194,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Alduressa Helm (Loot) Icon.png",
+      "target": "Alduressa Helm Loot Icon.png",
+      "target_sha1": "d1bec4e33094d0eed460129ef06097f1b9baa209",
+      "target_bytes": 2336,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Diforsa Gauntlets (Loot) Icon.png",
+      "target": "Diforsa Gauntlets Loot Icon.png",
+      "target_sha1": "84c72e6bf84e54f9f01ce891c4812402ccdb65d0",
+      "target_bytes": 2161,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Diforsa Helm (Loot) Icon.png",
+      "target": "Diforsa Helm Loot Icon.png",
+      "target_sha1": "bd53c9c8ca445102115478983f5b6e8546358272",
+      "target_bytes": 1991,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Leather Boots (Loot) Icon.png",
+      "target": "Leather Boots Loot Icon.png",
+      "target_sha1": "4335d8d8ab50c170e4ad89c5a362f6a1a9bf4b7f",
+      "target_bytes": 2463,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Leather Cowl (Loot) Icon.png",
+      "target": "Leather Cowl Loot Icon.png",
+      "target_sha1": "46bb3d7b153a5af60913c4345523a32782024541",
+      "target_bytes": 2029,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Leather Gauntlets (Loot) Icon.png",
+      "target": "Leather Gauntlets Loot Icon.png",
+      "target_sha1": "374eef6f39f01ea753898f4df14a72a4148ba49a",
+      "target_bytes": 2286,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Leather Helm (Loot) Icon.png",
+      "target": "Leather Helm Loot Icon.png",
+      "target_sha1": "9dfda00fa28cad83f15f99a35e88a9466f532c33",
+      "target_bytes": 2475,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Platemail Gauntlets (Loot) Icon.png",
+      "target": "Platemail Gauntlets Loot Icon.png",
+      "target_sha1": "b06ef528e917cc05511efb6294cab979e001d5db",
+      "target_bytes": 2603,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Studded Leather Basinet (Loot) Icon.png",
+      "target": "Studded Leather Basinet Loot Icon.png",
+      "target_sha1": "195efaf5a7a2ba730032e7e8d1267c3d829ea291",
+      "target_bytes": 2264,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Studded Leather Boots (Loot) Icon.png",
+      "target": "Studded Leather Boots Loot Icon.png",
+      "target_sha1": "f69466a66e2737197eff068cdf448db3ace14ed0",
+      "target_bytes": 2391,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Studded Leather Cowl (Loot) Icon.png",
+      "target": "Studded Leather Cowl Loot Icon.png",
+      "target_sha1": "38bfbbff343cc84df356fa1d25c5dcd6d2f01610",
+      "target_bytes": 2048,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Studded Leather Gauntlets (Loot) Icon.png",
+      "target": "Studded Leather Gauntlets Loot Icon.png",
+      "target_sha1": "ae9e8b443a9537250b618bce3e9fb1a86c81305c",
+      "target_bytes": 2579,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Mumiyah Hunting: Lost City of Neftet (Level 200+) Icon.png",
+      "target": "Mumiyah Hunting Lost City of Neftet (Level 200+) Icon.png",
+      "target_sha1": "bd7eef7d4c0347cdf909d517cb38bcb257bfe7aa",
+      "target_bytes": 2399,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Reedshark Hunting: Lost City of Neftet (Level 200+) Icon.png",
+      "target": "Reedshark Hunting Lost City of Neftet (Level 200+) Icon.png",
+      "target_sha1": "bd7eef7d4c0347cdf909d517cb38bcb257bfe7aa",
+      "target_bytes": 2399,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "\"Enchanted\" Iceball Icon.png",
+      "target": "Enchanted Iceball Icon.png",
+      "target_sha1": "0a457b7e10aabcdc2f6bf306d055361e61983d3c",
+      "target_bytes": 2438,
+      "reported_page_count": 2,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Dereth: Crucible of Life Icon.png",
+      "target": "Dereth- Crucible of Life Icon.png",
+      "target_sha1": "51d510e856e39a4c6acd89a3c995a0ce707477f3",
+      "target_bytes": 3228,
+      "reported_page_count": 1,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Empowered Amber: Breastplate of Life Icon.png",
+      "target": "Empowered Amber Breastplate of Life Icon.png",
+      "target_sha1": "c2256f54cc7869f697b780601c87be7b825c8869",
+      "target_bytes": 2905,
+      "reported_page_count": 1,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Bag labeled \"White\" Live.jpg",
+      "target": "Bag labeled White Live.jpg",
+      "target_sha1": "2b62c4cd5daaeca789a3072469da7294356845b6",
+      "target_bytes": 36729,
+      "reported_page_count": 1,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Soc: Collect Gear Knight Parts Icon.png",
+      "target": "Contract for Soc. Collect Gear Knight Parts Icon.png",
+      "target_sha1": "6245ec978e8744d57f9cc490af1a4d9a15962b22",
+      "target_bytes": 2396,
+      "reported_page_count": 1,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Soc: Destroy the Phalanx Icon.png",
+      "target": "Contract for Soc. Destroy the Phalanx Icon.png",
+      "target_sha1": "6245ec978e8744d57f9cc490af1a4d9a15962b22",
+      "target_bytes": 2396,
+      "reported_page_count": 1,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Contract for Soc: Mana Siphon Destruction Icon.png",
+      "target": "Contract for Soc. Mana Siphon Destruction Icon.png",
+      "target_sha1": "6245ec978e8744d57f9cc490af1a4d9a15962b22",
+      "target_bytes": 2396,
+      "reported_page_count": 1,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Desert-Wyrm.jpg",
+      "target": "Desert Wyrm.jpg",
+      "target_sha1": "6fd62399a5ef0651feea07ae4479e2aa3e550a4a",
+      "target_bytes": 78917,
+      "reported_page_count": 1,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "First Lieutenant's Insignia Icon.png",
+      "target": "First Lieutenant's Insignia. Icon.png",
+      "target_sha1": "0a697af7227e426752e45299cc84f612b026b7c0",
+      "target_bytes": 2654,
+      "reported_page_count": 1,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Armoredillo Hunting: Lost City of Neftet (Level 200+) Icon.png",
+      "target": "Armoredillo Hunting Lost City of Neftet (Level 200+) Icon.png",
+      "target_sha1": "bd7eef7d4c0347cdf909d517cb38bcb257bfe7aa",
+      "target_bytes": 2399,
+      "reported_page_count": 1,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Sarcophagus of High Matriarch Hizk Ri.jpg",
+      "target": "Sarcophagus of High Matriarch, Hizk Ri.jpg",
+      "target_sha1": "d992bb56d43f6feed0ee1c63490f695ce9d86c0a",
+      "target_bytes": 21922,
+      "reported_page_count": 1,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Massilor the Withered Live.jpg",
+      "target": "Massilor the Withered Live.png",
+      "target_sha1": "5d9867b4ce5fd84a5ddae2385592cc13f4e42efc",
+      "target_bytes": 91588,
+      "reported_page_count": 1,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Darktorizo Avatar.png",
+      "target": "Darktorizo Avatar.gif",
+      "target_sha1": "5e20abf6837ea2d2172c1512e61c9af89635c538",
+      "target_bytes": 18420,
+      "reported_page_count": 1,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Ryse SC Avatar.png",
+      "target": "Ryse SC Avatar.jpg",
+      "target_sha1": "cd19644f16d94ef18f55ffcea4f364a84396406c",
+      "target_bytes": 95914,
+      "reported_page_count": 1,
+      "evidence": "Same ordered filename words; punctuation or extension variant; unique matching backup image and verified live target."
+    },
+    {
+      "source": "Research Notes: Mattekar Icon.png",
+      "target": "Research Notes Mattekar Icon.png",
+      "target_sha1": "a9132758774d1b4aec7172a1aa33b6b462dbaaa0",
+      "target_bytes": 2382,
+      "reported_page_count": 6,
+      "evidence": "Multiple spelling variants are byte-identical in the live image registry."
+    },
+    {
+      "source": "Luminous Amber: Gauntlets of the Storm Icon.png",
+      "target": "Luminous Amber Gauntlets of the Storm Icon.png",
+      "target_sha1": "49e7ef6183ef7760bc98457ddb5fd6c7b8ae2ddc",
+      "target_bytes": 2793,
+      "reported_page_count": 3,
+      "evidence": "Multiple spelling variants are byte-identical in the live image registry."
+    },
+    {
+      "source": "Contract for Kill: Gear Knight Commander Icon.png",
+      "target": "Contract for Kill Gear Knight Commander Icon.png",
+      "target_sha1": "6245ec978e8744d57f9cc490af1a4d9a15962b22",
+      "target_bytes": 2396,
+      "reported_page_count": 3,
+      "evidence": "Multiple spelling variants are byte-identical in the live image registry."
+    },
+    {
+      "source": "Luminous Amber: Pauldrons of Thunderous Blows Icon.png",
+      "target": "Luminous Amber Pauldrons of Thunderous Blows Icon.png",
+      "target_sha1": "49e7ef6183ef7760bc98457ddb5fd6c7b8ae2ddc",
+      "target_bytes": 2793,
+      "reported_page_count": 2,
+      "evidence": "Multiple spelling variants are byte-identical in the live image registry."
+    },
+    {
+      "source": "Contract for Kill: Gear Knight Squires Icon.png",
+      "target": "Contract for Kill Gear Knight Squires Icon.png",
+      "target_sha1": "6245ec978e8744d57f9cc490af1a4d9a15962b22",
+      "target_bytes": 2396,
+      "reported_page_count": 1,
+      "evidence": "Multiple spelling variants are byte-identical in the live image registry."
+    },
+    {
+      "source": "Minor Gearcrafting Armature Icon.png",
+      "target": "Minor Item Tinkering Armature Icon.png",
+      "target_sha1": "cc391230b847984adea9bec41bfda0fccd3d9558",
+      "target_bytes": 2420,
+      "reported_page_count": 38,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Minor Item Tinkering Armature Icon.png",
+      "source_page": "Minor Item Tinkering Armature",
+      "source_revision": 21814
+    },
+    {
+      "source": "Moderate Gearcrafting Armature Icon.png",
+      "target": "Moderate Item Tinkering Armature Icon.png",
+      "target_sha1": "cc391230b847984adea9bec41bfda0fccd3d9558",
+      "target_bytes": 2420,
+      "reported_page_count": 38,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Moderate Item Tinkering Armature Icon.png",
+      "source_page": "Moderate Item Tinkering Armature",
+      "source_revision": 22106
+    },
+    {
+      "source": "Mutated Olthoi Gland Icon.png",
+      "target": "Small Olthoi Venom Sac Icon.png",
+      "target_sha1": "698bc352256d9ea507b4f5bab0dc12ab4d464a75",
+      "target_bytes": 2573,
+      "reported_page_count": 22,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Small Olthoi Venom Sac Icon.png",
+      "source_page": "Mutated Olthoi Gland",
+      "source_revision": 22579
+    },
+    {
+      "source": "Corrupted Essence (Trophy) Icon.png",
+      "target": "Corrupted Essence Icon.png",
+      "target_sha1": "a7d2671d858385e7659281868b110d52aea7166f",
+      "target_bytes": 2414,
+      "reported_page_count": 17,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Corrupted Essence Icon.png",
+      "source_page": "Corrupted Essence (Trophy)",
+      "source_revision": 8797
+    },
+    {
+      "source": "Major Gearcrafting Armature Icon.png",
+      "target": "Major Item Tinkering Armature Icon.png",
+      "target_sha1": "cc391230b847984adea9bec41bfda0fccd3d9558",
+      "target_bytes": 2420,
+      "reported_page_count": 12,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Major Item Tinkering Armature Icon.png",
+      "source_page": "Major Item Tinkering Armature",
+      "source_revision": 20391
+    },
+    {
+      "source": "Cloth Cap (Loot) Icon.png",
+      "target": "Cloth Cap Icon.png",
+      "target_sha1": "0324d3c71b40c2caf402add51b24214f67cbc154",
+      "target_bytes": 2150,
+      "reported_page_count": 8,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Cloth Cap Icon.png",
+      "source_page": "Cloth Cap",
+      "source_revision": 7910
+    },
+    {
+      "source": "Crown (Loot) Icon.png",
+      "target": "Crown Icon.png",
+      "target_sha1": "98c1ed2592caf7d7b1abb49f96c68d671bafb340",
+      "target_bytes": 2447,
+      "reported_page_count": 8,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Crown Icon.png",
+      "source_page": "Crown",
+      "source_revision": 9111
+    },
+    {
+      "source": "Hood (Loot) Icon.png",
+      "target": "Hood Icon.png",
+      "target_sha1": "6bc525973a8176e74c121ee1e0980bae0e29d674",
+      "target_bytes": 2292,
+      "reported_page_count": 8,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Hood Icon.png",
+      "source_page": "Hood",
+      "source_revision": 16043
+    },
+    {
+      "source": "Qafiya (Loot) Icon.png",
+      "target": "Qafiya (Bright Red) Icon.png",
+      "target_sha1": "a4589acf47dddeaf17b2454e378eb96e845b40d0",
+      "target_bytes": 2136,
+      "reported_page_count": 8,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Qafiya (Bright Red) Icon.png",
+      "source_page": "Qafiya",
+      "source_revision": 25425
+    },
+    {
+      "source": "Steel Toed Boots (Loot) Icon.png",
+      "target": "Steel Toed Boots Icon.png",
+      "target_sha1": "bfcce282def4ed95bc04452e0ba462bb82af47cd",
+      "target_bytes": 2326,
+      "reported_page_count": 8,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Steel Toed Boots Icon.png",
+      "source_page": "Steel Toed Boots",
+      "source_revision": 32259
+    },
+    {
+      "source": "Circlet (Loot) Icon.png",
+      "target": "Circlet Icon.png",
+      "target_sha1": "414bc9e637199913ec1e8239e39ed06e1ab6b3dc",
+      "target_bytes": 1834,
+      "reported_page_count": 7,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Circlet Icon.png",
+      "source_page": "Circlet",
+      "source_revision": 7848
+    },
+    {
+      "source": "Dho Vest and Over-robe (Loot) Icon.png",
+      "target": "Dho Vest and Over-robe Icon.png",
+      "target_sha1": "ccb7a8204754b8d835039672c5c16972b2ad3dd7",
+      "target_bytes": 2403,
+      "reported_page_count": 6,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Dho Vest and Over-robe Icon.png",
+      "source_page": "Dho Vest and Over-robe",
+      "source_revision": 10050
+    },
+    {
+      "source": "Faran Over-robe (Loot) Icon.png",
+      "target": "Faran Over-robe Icon.png",
+      "target_sha1": "f910d04d33af3daab6dc022c23d942a5919444b2",
+      "target_bytes": 2518,
+      "reported_page_count": 6,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Faran Over-robe Icon.png",
+      "source_page": "Faran Over-robe",
+      "source_revision": 11937
+    },
+    {
+      "source": "Signet Crown (Loot) Icon.png",
+      "target": "Signet Crown Icon.png",
+      "target_sha1": "33020eecb7e17c3f094bdb30ebcf48d18500fb71",
+      "target_bytes": 1996,
+      "reported_page_count": 6,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Signet Crown Icon.png",
+      "source_page": "Signet Crown",
+      "source_revision": 30693
+    },
+    {
+      "source": "Suikan Over-robe (Loot) Icon.png",
+      "target": "Suikan Over-robe Icon.png",
+      "target_sha1": "ceab7e010f973c6667520cff2e47adb497d97e0c",
+      "target_bytes": 2515,
+      "reported_page_count": 6,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Suikan Over-robe Icon.png",
+      "source_page": "Suikan Over-robe",
+      "source_revision": 32582
+    },
+    {
+      "source": "Vestiri Over-robe (Loot) Icon.png",
+      "target": "Vestiri Over-robe Icon.png",
+      "target_sha1": "fadb4f8eda434a3ad16e23044626361a7e37a70f",
+      "target_bytes": 2145,
+      "reported_page_count": 6,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Vestiri Over-robe Icon.png",
+      "source_page": "Vestiri Over-robe",
+      "source_revision": 35367
+    },
+    {
+      "source": "Coronet (Loot) Icon.png",
+      "target": "Coronet Icon.png",
+      "target_sha1": "7cd7e57ea4f8ff5269af39113f5738063eae6f3f",
+      "target_bytes": 1959,
+      "reported_page_count": 5,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Coronet Icon.png",
+      "source_page": "Coronet",
+      "source_revision": 8734
+    },
+    {
+      "source": "Shoes (The Crafter) Icon.png",
+      "target": "Shoes (Simulacrum) Icon.png",
+      "target_sha1": "43b6e0a89228314a37d927188456b9ac4e91d62f",
+      "target_bytes": 2513,
+      "reported_page_count": 5,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Shoes (Simulacrum) Icon.png",
+      "source_page": "Shoes (Simulacrum)",
+      "source_revision": 30444
+    },
+    {
+      "source": "Sage Drudge Charm Icon.png",
+      "target": "Drudge Sage Charm Icon.png",
+      "target_sha1": "b9fa655ca60fd989ff012e8fe02db98298fccdf3",
+      "target_bytes": 2686,
+      "reported_page_count": 4,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Drudge Sage Charm Icon.png",
+      "source_page": "Drudge Sage Charm",
+      "source_revision": 10484
+    },
+    {
+      "source": "Diadem (Loot) Icon.png",
+      "target": "Diadem Icon.png",
+      "target_sha1": "8844426d1249d44d5d944bf76b443afacecf3e2e",
+      "target_bytes": 1987,
+      "reported_page_count": 4,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Diadem Icon.png",
+      "source_page": "Diadem",
+      "source_revision": 10055
+    },
+    {
+      "source": "Chicken? Icon.png",
+      "target": "Chicken(Question) Icon.png",
+      "target_sha1": "f83cfedda2fb949846d6ab91c9bff46f8492f295",
+      "target_bytes": 2567,
+      "reported_page_count": 3,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Chicken(Question) Icon.png",
+      "source_page": "Chicken?",
+      "source_revision": 7691
+    },
+    {
+      "source": "Egg? Icon.png",
+      "target": "Egg(Question) Icon.png",
+      "target_sha1": "d686393621ce09caddb57b9c06adca9a2a3a656f",
+      "target_bytes": 2414,
+      "reported_page_count": 3,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Egg(Question) Icon.png",
+      "source_page": "Egg?",
+      "source_revision": 10736
+    },
+    {
+      "source": "Rift Orb - Major Life Icon.png",
+      "target": "Rift Orb (Tenebrous Rift) Icon.png",
+      "target_sha1": "d87d5b6c8a26aaee84bced3b4d66296a95845ba6",
+      "target_bytes": 2376,
+      "reported_page_count": 3,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Rift Orb (Tenebrous Rift) Icon.png",
+      "source_page": "Rift Orb (Tenebrous Rift)",
+      "source_revision": 26462
+    },
+    {
+      "source": "Teardrop Crown (Loot) Icon.png",
+      "target": "Teardrop Crown Icon.png",
+      "target_sha1": "dce1ba33e32d400f18b0d7e7b0b8cdeb3382a687",
+      "target_bytes": 2142,
+      "reported_page_count": 3,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Teardrop Crown Icon.png",
+      "source_page": "Teardrop Crown",
+      "source_revision": 33114
+    },
+    {
+      "source": "Rusty Key Icon.png",
+      "target": "Key (Rusty Key) Icon.png",
+      "target_sha1": "f8ea921d23e75b37245402f3c1e4105131558b31",
+      "target_bytes": 3041,
+      "reported_page_count": 2,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Key (Rusty Key) Icon.png",
+      "source_page": "Key (Rusty Key)",
+      "source_revision": 18175
+    },
+    {
+      "source": "Puffy Shirt (Light Grey) Live.jpg",
+      "target": "Puffy Shirt Live.jpg",
+      "target_sha1": "415a16b4c38e2f9556f7f8330aa97dae58b2fe38",
+      "target_bytes": 16713,
+      "reported_page_count": 2,
+      "evidence": "The canonical item page explicitly specifies Live Image = Puffy Shirt Live.jpg",
+      "source_page": "Puffy Shirt",
+      "source_revision": 25271
+    },
+    {
+      "source": "Pants (Dark Red) Icon.png",
+      "target": "Pants (Dark Green) Icon.png",
+      "target_sha1": "dd0f2aeae3d4efeec198e720b5fe948d6fd6baa6",
+      "target_bytes": 2193,
+      "reported_page_count": 2,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Pants (Dark Green) Icon.png",
+      "source_page": "Pants",
+      "source_revision": 24073
+    },
+    {
+      "source": "Vestiri Robe with Hood (Blue with Dark Blue Trim) Icon.png",
+      "target": "Vestiri Robe with Hood Icon.png",
+      "target_sha1": "aab77e1ccf720b44fbe19f12275d68614741fd7e",
+      "target_bytes": 2219,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Vestiri Robe with Hood Icon.png",
+      "source_page": "Vestiri Robe with Hood",
+      "source_revision": 35372
+    },
+    {
+      "source": "Vestiri Robe with Hood (Blue with Red Trim) Icon.png",
+      "target": "Vestiri Robe with Hood Icon.png",
+      "target_sha1": "aab77e1ccf720b44fbe19f12275d68614741fd7e",
+      "target_bytes": 2219,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Vestiri Robe with Hood Icon.png",
+      "source_page": "Vestiri Robe with Hood",
+      "source_revision": 35372
+    },
+    {
+      "source": "Chicken? Live.jpg",
+      "target": "Chicken(Question) Live.png",
+      "target_sha1": "6844a5f104db65c68d20035a997a952124069877",
+      "target_bytes": 46778,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Live Image = Chicken(Question) Live.png",
+      "source_page": "Chicken?",
+      "source_revision": 7691
+    },
+    {
+      "source": "Egg? Live.jpg",
+      "target": "Egg(Question) Live.png",
+      "target_sha1": "9778fb04d847ff96899fc4fad339120718d1a52b",
+      "target_bytes": 18355,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Live Image = Egg(Question) Live.png",
+      "source_page": "Egg?",
+      "source_revision": 10736
+    },
+    {
+      "source": "Composite Bow with Handle (High) Icon.png",
+      "target": "Composite Bow with Handle Icon.png",
+      "target_sha1": "039dbda1181a9cfea1792e14dd815dfdc94992b8",
+      "target_bytes": 2572,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Composite Bow with Handle Icon.png",
+      "source_page": "Composite Bow with Handle",
+      "source_revision": 8200
+    },
+    {
+      "source": "Composite Bow with Handle (Low) Icon.png",
+      "target": "Composite Bow with Handle Icon.png",
+      "target_sha1": "039dbda1181a9cfea1792e14dd815dfdc94992b8",
+      "target_bytes": 2572,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Composite Bow with Handle Icon.png",
+      "source_page": "Composite Bow with Handle",
+      "source_revision": 8200
+    },
+    {
+      "source": "Composite Bow with Handle (Medium) Icon.png",
+      "target": "Composite Bow with Handle Icon.png",
+      "target_sha1": "039dbda1181a9cfea1792e14dd815dfdc94992b8",
+      "target_bytes": 2572,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Composite Bow with Handle Icon.png",
+      "source_page": "Composite Bow with Handle",
+      "source_revision": 8200
+    },
+    {
+      "source": "Composite Crossbow with Handle (High) Icon.png",
+      "target": "Composite Crossbow Icon.png",
+      "target_sha1": "e92f79e53343ca066242b22be7686a9ab6251bd4",
+      "target_bytes": 3659,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Composite Crossbow Icon.png",
+      "source_page": "Composite Crossbow with Handle",
+      "source_revision": 8208
+    },
+    {
+      "source": "Composite Crossbow with Handle (Low) Icon.png",
+      "target": "Composite Crossbow Icon.png",
+      "target_sha1": "e92f79e53343ca066242b22be7686a9ab6251bd4",
+      "target_bytes": 3659,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Composite Crossbow Icon.png",
+      "source_page": "Composite Crossbow with Handle",
+      "source_revision": 8208
+    },
+    {
+      "source": "Composite Crossbow with Handle (Medium) Icon.png",
+      "target": "Composite Crossbow Icon.png",
+      "target_sha1": "e92f79e53343ca066242b22be7686a9ab6251bd4",
+      "target_bytes": 3659,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Composite Crossbow Icon.png",
+      "source_page": "Composite Crossbow with Handle",
+      "source_revision": 8208
+    },
+    {
+      "source": "Empyrean Robe (Black) Live.jpg",
+      "target": "Empyrean Robe Live.jpg",
+      "target_sha1": "14a8b0e53006323ff8fb97b721553e0854d5b8f4",
+      "target_bytes": 31815,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Live Image = Empyrean Robe Live.jpg",
+      "source_page": "Empyrean Robe",
+      "source_revision": 11087
+    },
+    {
+      "source": "Casting Stamped Spectral Ingot Icon.png",
+      "target": "Casting Staff Stamped Spectral Ingot Icon.png",
+      "target_sha1": "5d17b00b47d4aa5da32f725fb6650578954018fb",
+      "target_bytes": 2460,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Casting Staff Stamped Spectral Ingot Icon.png",
+      "source_page": "Casting Staff Stamped Spectral Ingot",
+      "source_revision": 7339
+    },
+    {
+      "source": "Knath Head (Purple) Live.jpg",
+      "target": "Knath Head Live.jpg",
+      "target_sha1": "188b5f23e494d0fc8ed13005beb2176ff2def150",
+      "target_bytes": 23088,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Live Image = Knath Head Live.jpg",
+      "source_page": "Knath Head",
+      "source_revision": 18366
+    },
+    {
+      "source": "Lin Jojii Shrine Icon.png",
+      "target": "Jojii Shrine Icon.png",
+      "target_sha1": "acfd316b4d7c929ed8a92353d3d3c87ad1068173",
+      "target_bytes": 1841,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Jojii Shrine Icon.png",
+      "source_page": "Lin Jojii Shrine",
+      "source_revision": 19529
+    },
+    {
+      "source": "Nanto Jojii Shrine Icon.png",
+      "target": "Jojii Shrine Icon.png",
+      "target_sha1": "acfd316b4d7c929ed8a92353d3d3c87ad1068173",
+      "target_bytes": 1841,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Jojii Shrine Icon.png",
+      "source_page": "Nanto Jojii Shrine",
+      "source_revision": 22653
+    },
+    {
+      "source": "Sawato Jojii Shrine Icon.png",
+      "target": "Jojii Shrine Icon.png",
+      "target_sha1": "acfd316b4d7c929ed8a92353d3d3c87ad1068173",
+      "target_bytes": 1841,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Jojii Shrine Icon.png",
+      "source_page": "Sawato Jojii Shrine",
+      "source_revision": 27243
+    },
+    {
+      "source": "Palm Fort Live.jpg",
+      "target": "Fort Defense Live.jpg",
+      "target_sha1": "a503b9e21c85ed17a92bd7d2d66bd95529910328",
+      "target_bytes": 19780,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Live Image = Fort Defense Live.jpg",
+      "source_page": "Palm Fort",
+      "source_revision": 24051
+    },
+    {
+      "source": "Baishi (Town Network Sign) Icon.png",
+      "target": "Generic Sign Icon.png",
+      "target_sha1": "fb4efd3797b3740c905c221623f53dd97128cf99",
+      "target_bytes": 2143,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Generic Sign Icon.png",
+      "source_page": "Baishi (Town Network Sign)",
+      "source_revision": 5187
+    },
+    {
+      "source": "Freehold (Town Network Sign) Icon.png",
+      "target": "Generic Sign Icon.png",
+      "target_sha1": "fb4efd3797b3740c905c221623f53dd97128cf99",
+      "target_bytes": 2143,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Generic Sign Icon.png",
+      "source_page": "Freehold (Town Network Sign)",
+      "source_revision": 13116
+    },
+    {
+      "source": "Hebian-To (Town Network Sign) Icon.png",
+      "target": "Generic Sign Icon.png",
+      "target_sha1": "fb4efd3797b3740c905c221623f53dd97128cf99",
+      "target_bytes": 2143,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Generic Sign Icon.png",
+      "source_page": "Hebian-To (Town Network Sign)",
+      "source_revision": 15647
+    },
+    {
+      "source": "Kara (Town Network Sign) Icon.png",
+      "target": "Generic Sign Icon.png",
+      "target_sha1": "fb4efd3797b3740c905c221623f53dd97128cf99",
+      "target_bytes": 2143,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Generic Sign Icon.png",
+      "source_page": "Kara (Town Network Sign)",
+      "source_revision": 18059
+    },
+    {
+      "source": "Kryst (Town Network Sign) Icon.png",
+      "target": "Generic Sign Icon.png",
+      "target_sha1": "fb4efd3797b3740c905c221623f53dd97128cf99",
+      "target_bytes": 2143,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Generic Sign Icon.png",
+      "source_page": "Kryst (Town Network Sign)",
+      "source_revision": 18484
+    },
+    {
+      "source": "Lin (Town Network Sign) Icon.png",
+      "target": "Generic Sign Icon.png",
+      "target_sha1": "fb4efd3797b3740c905c221623f53dd97128cf99",
+      "target_bytes": 2143,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Generic Sign Icon.png",
+      "source_page": "Lin (Town Network Sign)",
+      "source_revision": 19527
+    },
+    {
+      "source": "Mayoi (Town Network Sign) Icon.png",
+      "target": "Generic Sign Icon.png",
+      "target_sha1": "fb4efd3797b3740c905c221623f53dd97128cf99",
+      "target_bytes": 2143,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Generic Sign Icon.png",
+      "source_page": "Mayoi (Town Network Sign)",
+      "source_revision": 21246
+    },
+    {
+      "source": "Nanto (Town Network Sign) Icon.png",
+      "target": "Generic Sign Icon.png",
+      "target_sha1": "fb4efd3797b3740c905c221623f53dd97128cf99",
+      "target_bytes": 2143,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Generic Sign Icon.png",
+      "source_page": "Nanto (Town Network Sign)",
+      "source_revision": 22650
+    },
+    {
+      "source": "Sawato (Town Network Sign) Icon.png",
+      "target": "Generic Sign Icon.png",
+      "target_sha1": "fb4efd3797b3740c905c221623f53dd97128cf99",
+      "target_bytes": 2143,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Generic Sign Icon.png",
+      "source_page": "Sawato (Town Network Sign)",
+      "source_revision": 27233
+    },
+    {
+      "source": "Sho (Town Network Sign) Icon.png",
+      "target": "Generic Sign Icon.png",
+      "target_sha1": "fb4efd3797b3740c905c221623f53dd97128cf99",
+      "target_bytes": 2143,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Generic Sign Icon.png",
+      "source_page": "Sho (Town Network Sign)",
+      "source_revision": 30381
+    },
+    {
+      "source": "Shoushi (Town Network Sign) Icon.png",
+      "target": "Generic Sign Icon.png",
+      "target_sha1": "fb4efd3797b3740c905c221623f53dd97128cf99",
+      "target_bytes": 2143,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Generic Sign Icon.png",
+      "source_page": "Shoushi (Town Network Sign)",
+      "source_revision": 30499
+    },
+    {
+      "source": "Tou-Tou (Town Network Sign) Icon.png",
+      "target": "Generic Sign Icon.png",
+      "target_sha1": "fb4efd3797b3740c905c221623f53dd97128cf99",
+      "target_bytes": 2143,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Generic Sign Icon.png",
+      "source_page": "Tou-Tou (Town Network Sign)",
+      "source_revision": 34036
+    },
+    {
+      "source": "Yanshi (Town Network Sign) Icon.png",
+      "target": "Generic Sign Icon.png",
+      "target_sha1": "fb4efd3797b3740c905c221623f53dd97128cf99",
+      "target_bytes": 2143,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Generic Sign Icon.png",
+      "source_page": "Yanshi (Town Network Sign)",
+      "source_revision": 36752
+    },
+    {
+      "source": "Pants (Grey) Icon.png",
+      "target": "Pants (Dark Green) Icon.png",
+      "target_sha1": "dd0f2aeae3d4efeec198e720b5fe948d6fd6baa6",
+      "target_bytes": 2193,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Pants (Dark Green) Icon.png",
+      "source_page": "Pants",
+      "source_revision": 24073
+    },
+    {
+      "source": "Swordstaff Icon.png",
+      "target": "Naginata Icon.png",
+      "target_sha1": "92362cdf91b2e9cb254f115317b0de1dbeb6ddc5",
+      "target_bytes": 2258,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Naginata Icon.png",
+      "source_page": "Naginata",
+      "source_revision": 22617
+    },
+    {
+      "source": "Drudge Bloodletter Charm Icon.png",
+      "target": "Bloodletter Drudge Charm Icon.png",
+      "target_sha1": "ac76aa8538325f96d408335007c8b7ed4a4fcba5",
+      "target_bytes": 3342,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Bloodletter Drudge Charm Icon.png",
+      "source_page": "Bloodletter Drudge Charm",
+      "source_revision": 6221
+    },
+    {
+      "source": "Hoshino Kei (Wedding) Live.jpg",
+      "target": "Hoshino Kei (Unwed) Live.jpg",
+      "target_sha1": "f9186fc8f645b6c9f8d80a97676d5d1d80349127",
+      "target_bytes": 35697,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Live Image = Hoshino Kei (Unwed) Live.jpg",
+      "source_page": "Hoshino Kei (Unwed)",
+      "source_revision": 16080
+    },
+    {
+      "source": "Prince Borelean Strathelar (Wedding) Live.jpg",
+      "target": "Prince Borelean Strathelar (Unwed) Live.jpg",
+      "target_sha1": "847554ed7eb96f149a7102b025555b9566080b38",
+      "target_bytes": 34911,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Live Image = Prince Borelean Strathelar (Unwed) Live.jpg",
+      "source_page": "Prince Borelean Strathelar (Unwed)",
+      "source_revision": 25065
+    },
+    {
+      "source": "Foolproof Peridot Icon.png",
+      "target": "Peridot Foolproof Icon.png",
+      "target_sha1": "ba3fa35356b6c0a5938b9097636be201fa5cf590",
+      "target_bytes": 3028,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Peridot Foolproof Icon.png",
+      "source_page": "Peridot Foolproof",
+      "source_revision": 24487
+    },
+    {
+      "source": "Foolproof Yellow Topaz Icon.png",
+      "target": "Yellow Topaz Foolproof Icon.png",
+      "target_sha1": "0677a8b0e46856d01910d591135f40d69d7e2abe",
+      "target_bytes": 3064,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Yellow Topaz Foolproof Icon.png",
+      "source_page": "Yellow Topaz Foolproof",
+      "source_revision": 36822
+    },
+    {
+      "source": "Foolproof Zircon Icon.png",
+      "target": "Zircon Foolproof Icon.png",
+      "target_sha1": "1a4e3c3ec0e58221117bf45e6c18cfca2773fc67",
+      "target_bytes": 3085,
+      "reported_page_count": 1,
+      "evidence": "The canonical item page explicitly specifies Icon Image = Zircon Foolproof Icon.png",
+      "source_page": "Zircon Foolproof",
+      "source_revision": 36951
+    }
+  ]
+}
