@@ -17,6 +17,9 @@ to those existing images rather than registering guessed aliases or uploading
 unrelated replacement artwork. The 12,638 wanted non-file titles are absent from
 the preserved article dump too; do not invent their original contents.
 
+All 112 proposed replacement images were fetched from the live site and their
+SHA-256 hashes match the corresponding image bytes in the pinned backups.
+
 The preview built from current live revisions proposes 251 page edits:
 
 - 144 filename-reference corrections on 118 pages, using the 112 existing images.
