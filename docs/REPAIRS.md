@@ -185,3 +185,41 @@ against an in-memory fixture and checks read-only preview, preservation of
 existing pages/files, unavailable storage, concurrent edit failures, the Emerald
 redirect and idempotent reruns. Full database/storage execution of the audit
 requires running it on the Ubuntu host.
+
+## YouTube and title suggestions
+
+The compatibility extension now handles archived `<youtube>VIDEO_ID</youtube>`
+markup. It accepts only an 11-character YouTube video ID, renders a responsive
+privacy-enhanced iframe and provides a direct Watch on YouTube link. Tag
+attributes cannot inject an arbitrary iframe URL or executable attributes.
+Aetheria's preserved `dTqDAFNPixM` video is still available as “Asheron's Call
+Spring Patch 2010: Aetheria”. Player availability remains subject to YouTube and
+the video's embedding settings.
+
+The website already has native title-prefix autocomplete. The extension now
+supplements it with title-word prefix results, so `ralir` can suggest Aun Ralirea
+and not just titles starting with “Ralir”. It retains native keyboard navigation,
+deduplicates results, cancels stale requests and falls back to the prefix results
+if the title search fails. A trailing `*`, such as `aeth*`, is supported by the
+current SQL search backend; arbitrary leading/infix wildcard behavior is not
+promised. No external search service or reindex is required for this UI update.
+
+After pulling this update (once any currently running full-site maintenance is
+finished), purge the named page if a cached copy still displays the literal tag:
+
+```bash
+sudo php public/maintenance/run.php purgeList --db-touch <<'EOF'
+Aetheria
+EOF
+```
+
+Use Special:UserLogin with username `RestorationAdmin`. Its generated password
+is on the server in `.data/admin-password.txt`. The server administrator can
+read that private file locally with `sudo cat`; do not copy credentials into
+Git or public reports. Logged-in sysops can edit; public editing stays disabled.
+
+Validation: YouTube hook tests cover the preserved video ID, malformed IDs,
+injected attributes and the fallback link. Browser tests inject the new search
+module into the live page without saving content and exercise title-word
+suggestions (`ralir`), wildcard input (`aeth*`) and changing queries without stale
+results. Server-side parser registration still needs post-deployment verification.
