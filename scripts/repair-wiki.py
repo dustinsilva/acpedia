@@ -31,6 +31,12 @@ def live_replacements(server, replacements):
 def build_plan(server, report):
     replacements=live_replacements(server,json.loads((report/'image-replacements.json').read_text()))
     candidates=json.loads((report/'compatibility-candidates.json').read_text())
+    # Existing reports predate the discovery of description-page checks hiding
+    # registered media. Include the affected shared templates without requiring
+    # another full archive comparison on an already-restored host.
+    template_titles=json.loads((ROOT/'config/media-check-templates.json').read_text())
+    known={row['title'] for row in candidates}
+    candidates += [{'title':title} for title in template_titles if title not in known]
     edits=[]
     for start in range(0,len(candidates),20):
         titles='|'.join(row['title'] for row in candidates[start:start+20])

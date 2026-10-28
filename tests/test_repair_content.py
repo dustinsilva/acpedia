@@ -42,4 +42,18 @@ class RepairContent(unittest.TestCase):
         self.assertIn('[[File:1017D.png]]',fixed)
         self.assertIn('<nowiki>017D.png</nowiki>',fixed)
 
+    def test_image_existence_checks_use_binary_not_description_page(self):
+        text='{{#ifexist:File:{{{Image|}}}|[[File:{{{Image|}}}|300x400px]]|[[File:Live.jpg]]}}'
+        fixed,counts=repair_wikitext(text)
+        self.assertEqual(fixed,'{{#ifexist:Media:{{{Image|}}}|[[File:{{{Image|}}}|300x400px]]|[[File:Live.jpg]]}}')
+        self.assertEqual(counts['media_checks'],1)
+        self.assertEqual(repair_wikitext(fixed)[0],fixed)
+
+    def test_other_existence_checks_and_literal_examples_are_preserved(self):
+        text='{{#ifexist:Quest|yes|no}} [[File:Portrait.jpg]] <nowiki>{{#ifexist:File:Example.png|yes|no}}</nowiki>'
+        self.assertEqual(repair_wikitext(text)[0],text)
+        fixed,counts=repair_wikitext('{{ #ifexist : Image:{{{Icon}}}|yes|no}}')
+        self.assertEqual(fixed,'{{ #ifexist : Media:{{{Icon}}}|yes|no}}')
+        self.assertEqual(counts['media_checks'],1)
+
 if __name__=='__main__':unittest.main()
