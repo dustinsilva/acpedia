@@ -90,3 +90,34 @@ the corrected dungeon maps and NPC portraits; check Blacksmith Bulidurg and
 Renegade Garrison links; and rerun the public wanted-file inventory. Source gaps
 outside the pinned backups remain unresolved and should remain distinguishable
 from recovered material.
+
+## Follow-up: existing portraits hidden by description-page checks
+
+Aun Ralirea's `Aun Ralirea Live.jpg` is already registered and served. However,
+`Template:Creature` used `#ifexist:File:...`, which checks for the missing file
+description page rather than the image binary. The same issue occurs in 14
+preserved shared templates (74 checks), including Creature, NPC, Live Image,
+Pet, Spell and Spawn Map. The repair now changes those checks to `Media:` while
+leaving the actual `[[File:...]]` image embeddings unchanged. Images that really
+are missing still use their original fallback.
+
+These templates are included automatically when an older comparison report is
+reused; no archive re-download or full comparison is required. After pulling the
+follow-up commit, run the repair preview/apply commands above. An already-repaired
+site should propose 14 additional template revisions. A read-only live-parser
+test confirms the old Creature portrait row renders `Live.jpg`, while the
+corrected row renders `Aun Ralirea Live.jpg`. Both registered and genuinely missing
+file checks were tested.
+
+Process queued template-cache updates after applying, and immediately invalidate
+the reported example page:
+
+```bash
+sudo php public/maintenance/run.php runJobs --maxtime 120
+sudo php public/maintenance/run.php purgeList --db-touch <<'EOF'
+Aun Ralirea
+EOF
+```
+
+The job runner is time-bounded; run it again if queued work remains. The purge
+marks the named page stale so its next view uses the updated shared template.

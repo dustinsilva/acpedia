@@ -8,6 +8,7 @@ COUNTER = re.compile(r'\{\{\s*AUTOINCREMENT\s*\}\}', re.I)
 # Only #expr operands need raw category totals; retain display formatting elsewhere.
 CATEGORY_OPERAND = re.compile(
     r'(\{\{\s*#expr\s*:\s*\{\{\s*PAGESINCATEGORY\s*:(?:\{\{[^{}]*\}\}|[^{}])*?)(\}\})', re.I)
+FILE_CHECK = re.compile(r'(\{\{\s*#ifexist\s*:\s*)(?:File|Image)\s*:', re.I)
 
 @lru_cache(maxsize=4)
 def image_pattern(names):
@@ -21,7 +22,7 @@ def repair_wikitext(text, image_replacements=None):
     Variables is already part of the pinned restoration runtime. Unlike replacing
     counts with constants, this keeps table totals correct when rows are edited.
     """
-    counts = {'counter_calls': 0, 'raw_category_operands': 0, 'image_references': 0}
+    counts = {'counter_calls': 0, 'raw_category_operands': 0, 'image_references': 0, 'media_checks': 0}
     counter_name = 'acpedia_archive_row'
     # Do not reuse a variable name already present in original content.
     while counter_name in text:
@@ -38,6 +39,10 @@ def repair_wikitext(text, image_replacements=None):
             counts['raw_category_operands'] += 1
             return match[1] + '|R' + match[2]
         chunk = CATEGORY_OPERAND.sub(raw, chunk)
+        # File:/Image: tests description-page existence. Media: tests the
+        # registered binary, even when the archive has no description revision.
+        chunk, count = FILE_CHECK.subn(lambda m: m[1] + 'Media:', chunk)
+        counts['media_checks'] += count
         if image_replacements:
             # Exact filename tokens, with equivalent wiki space/underscore syntax.
             pattern = image_pattern(tuple(image_replacements))

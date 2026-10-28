@@ -44,7 +44,7 @@ class ApplyACPediaRepairs extends Maintenance {
             if ($this->hasOption('apply')) {
                 $updater->setContent(SlotRecord::MAIN, ContentHandler::makeContent($edit['after'], $title));
                 $updater->saveRevision(CommentStoreComment::newUnsavedComment(
-                    'Restore table counters/raw numeric operands and correct image filenames against pinned ACPedia backups; original history retained'
+                    'Repair archived image-existence checks, table counters and image filenames; original history retained'
                 ), EDIT_UPDATE | EDIT_FORCE_BOT);
                 if (!$updater->getStatus()->isOK()) { $conflicts[] = $edit['title']; continue; }
             }
