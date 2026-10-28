@@ -2,6 +2,17 @@
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 class ACPediaArchiveHooks {
+    public static function brandHtml() {
+        return Html::rawElement('span', ['class'=>'acpedia-brand'],
+            Html::element('a', ['href'=>Title::newFromText('Home')->getLocalURL()], 'ACPedia')
+            . ' — ' . Html::element('a', ['href'=>'https://celestro.com/'], 'Revived by Celestro'));
+    }
+    public static function onSkinAddFooterLinks($skin, $key, &$items) {
+        if ($key !== 'info') { return; }
+        $items['acpedia-community'] = 'Original content by the ACPedia / AC Community Wiki community and credited creators. '
+            . Html::element('a', ['href'=>Title::newFromText('Special:ACPediaCredits')->getLocalURL()], 'Credits & preservation')
+            . ' · ' . Html::element('a', ['href'=>'https://celestro.com/'], 'Revived by Celestro');
+    }
     public static function onParserFirstCallInit($parser) {
         $parser->setHook('youtube', [self::class, 'renderYouTube']);
     }
@@ -49,6 +60,7 @@ class ACPediaArchiveHooks {
             if (preg_match('/^\[\[([^\]|]+)(?:\|([^\]]+))?\]\]$/u', $value, $link)) {
                 $target = $link[1]; $label = $link[2] ?? $target;
             } else { $target = $value; $label = $value; }
+            if ($target === 'Home' && $label === 'ACCWiki') { $label = 'ACPedia'; }
             $node = ['target'=>$target, 'label'=>$label, 'children'=>[]];
             $depth = $level - 2;
             if ($depth === 0 || !$stack) { $tree[] = $node; $stack = [&$tree[array_key_last($tree)]]; }
@@ -73,6 +85,7 @@ class ACPediaArchiveHooks {
         return $html;
     }
     public static function onBeforePageDisplay($out, $skin) {
+        $out->addSubtitle(self::brandHtml());
         $out->addModuleStyles('ext.acpedia.archive');
         $out->addModules('ext.acpedia.search');
     }
