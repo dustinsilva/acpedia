@@ -121,3 +121,67 @@ EOF
 
 The job runner is time-bounded; run it again if queued work remains. The purge
 marks the named page stale so its next view uses the updated shared template.
+
+## Full-site image inventory and salvage-name aliases
+
+`audit-images.php` reads every registered image and tests its original storage
+path through MediaWiki's backend. It also joins all namespaces' `imagelinks`
+records against the image registry, resolves native file redirects, and records
+every page using each unresolved filename. It scans all current wikitext
+templates for the description-page existence checks that hid portraits. It
+writes JSON reports to the private `.data/image-audit/` directory and does not
+edit wiki content or indexes.
+
+Rebuild the link index first so template-generated image names and recent repairs
+are included. This pass parses the full wiki and can take substantial time; run
+it in a persistent terminal session. Then run the audit:
+
+```bash
+sudo php public/maintenance/run.php refreshLinks
+sudo php scripts/audit-images.php
+sudo cat .data/image-audit/summary.json
+```
+
+The reports distinguish missing indexed filenames, registered files absent from
+storage, storage read errors, resolved file aliases, and suspect template checks.
+`missing-image-references.json` lists every affected page for each missing name.
+This covers original storage and the rebuilt reference index; it does not claim
+that every responsive thumbnail, external URL, CSS image or browser layout has
+been tested. An empty suspect-template report is not proof of all possible
+conditional rendering behavior.
+
+For example, Tier 8 loot asks for `Emerald Salvage Icon.png`, but the preserved
+image is `Salvaged Emerald Icon.png`. The material's article records the historical
+rename from “Salvaged Type” to “Type Salvage”. There are 72 such existing images
+under the old naming convention. The verified mapping is recorded in
+`config/salvage-icon-aliases.json` and uses only the same material, icon type and
+PNG format; quest-specific variants are not substituted.
+
+Create native file redirects so shared templates and explicit file references
+both resolve correctly, without rewriting item names, duplicating binaries or
+claiming recovered artwork:
+
+```bash
+sudo php scripts/repair-salvage-icons.php
+sudo php scripts/repair-salvage-icons.php --apply
+sudo php public/maintenance/run.php runJobs --maxtime 120
+sudo php public/maintenance/run.php purgeList --db-touch <<'EOF'
+Loot/Tier 8
+Salvage
+Emerald Salvage
+EOF
+```
+
+The first command only previews. Applying creates attributed repair revisions
+only where the requested file and description page are absent and the exact
+mapped target binary exists on storage. Existing pages/files, unavailable
+targets and concurrent page creations are skipped and reported. Reruns do not
+rewrite resolved aliases. Then rebuild the index and rerun the full audit above
+to establish the remaining unresolved inventory.
+
+Validation: all 72 old filenames were confirmed missing and all 72 target images
+registered via the public API. `php tests/salvage_aliases.php` executes the writer
+against an in-memory fixture and checks read-only preview, preservation of
+existing pages/files, unavailable storage, concurrent edit failures, the Emerald
+redirect and idempotent reruns. Full database/storage execution of the audit
+requires running it on the Ubuntu host.
