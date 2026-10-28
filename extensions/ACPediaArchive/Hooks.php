@@ -1,6 +1,22 @@
 <?php
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 class ACPediaArchiveHooks {
+    /** Legacy generated subpages were not preserved in the source dump.
+     * Offer the existing subject page, while making the fallback explicit.
+     * Never redirect existing subpages, edit links, file pages, or unknown subjects.
+     */
+    public static function onHtmlPageLinkRendererBegin($renderer, $target, &$text, &$attributes, &$query, &$ret) {
+        if ($target->getNamespace() !== NS_MAIN || $query || $target->getFragment() !== '') { return; }
+        $title = Title::newFromLinkTarget($target);
+        if (!preg_match('~^(.+)/(Sold By|Dungeon)$~', $title->getText(), $match) || $title->exists()) { return; }
+        $parent = Title::makeTitleSafe(NS_MAIN, $match[1]);
+        if (!$parent || !$parent->exists()) { return; }
+        $attributes['title'] = $parent->getPrefixedText() . ' (subject page; archived ' . $match[2] . ' subpage unavailable)';
+        $attributes['class'] = trim(($attributes['class'] ?? '') . ' acpedia-archive-fallback');
+        $ret = $renderer->makeLink($parent, $text ?? $title->getPrefixedText(), $attributes);
+        return false;
+    }
     public static function onSkinBuildSidebar($skin, &$bar) {
         $raw = wfMessage('menuSidebar')->inContentLanguage()->plain();
         if ($raw === '' || $raw === '⧼menusidebar⧽') { return; }
