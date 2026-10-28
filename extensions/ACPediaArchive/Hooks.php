@@ -2,6 +2,26 @@
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 class ACPediaArchiveHooks {
+    public static function onParserFirstCallInit($parser) {
+        $parser->setHook('youtube', [self::class, 'renderYouTube']);
+    }
+    public static function renderYouTube($input, $args, $parser, $frame) {
+        $id = trim($input);
+        if (!preg_match('/^[A-Za-z0-9_-]{11}$/D', $id)) {
+            return Html::element('span', ['class'=>'error'], 'Invalid YouTube video ID.');
+        }
+        $player = Html::rawElement('iframe', [
+            'src'=>'https://www.youtube-nocookie.com/embed/' . $id,
+            'title'=>'YouTube tutorial video', 'width'=>560, 'height'=>315,
+            'loading'=>'lazy', 'allow'=>'encrypted-media; picture-in-picture; fullscreen',
+            'allowfullscreen'=>true, 'referrerpolicy'=>'strict-origin-when-cross-origin'
+        ], '');
+        $link = Html::element('a', [
+            'href'=>'https://www.youtube.com/watch?v=' . $id,
+            'target'=>'_blank', 'rel'=>'noopener'
+        ], 'Watch on YouTube');
+        return Html::rawElement('div', ['class'=>'acpedia-video'], $player . $link);
+    }
     /** Legacy generated subpages were not preserved in the source dump.
      * Offer the existing subject page, while making the fallback explicit.
      * Never redirect existing subpages, edit links, file pages, or unknown subjects.
@@ -52,5 +72,8 @@ class ACPediaArchiveHooks {
         }
         return $html;
     }
-    public static function onBeforePageDisplay($out, $skin) { $out->addModuleStyles('ext.acpedia.archive'); }
+    public static function onBeforePageDisplay($out, $skin) {
+        $out->addModuleStyles('ext.acpedia.archive');
+        $out->addModules('ext.acpedia.search');
+    }
 }

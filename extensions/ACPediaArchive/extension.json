@@ -1,6 +1,6 @@
 {
   "name": "ACPediaArchive",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "ACPedia restoration contributors",
   "url": "https://github.com/dustinsilva/acpedia",
   "description": "Preserves ACPedia's archived nested sidebar on supported MediaWiki.",
@@ -12,12 +12,23 @@
   "Hooks": {
     "SkinBuildSidebar": "ACPediaArchiveHooks::onSkinBuildSidebar",
     "BeforePageDisplay": "ACPediaArchiveHooks::onBeforePageDisplay",
-    "HtmlPageLinkRendererBegin": "ACPediaArchiveHooks::onHtmlPageLinkRendererBegin"
+    "HtmlPageLinkRendererBegin": "ACPediaArchiveHooks::onHtmlPageLinkRendererBegin",
+    "ParserFirstCallInit": "ACPediaArchiveHooks::onParserFirstCallInit"
   },
   "ResourceModules": {
     "ext.acpedia.archive": {
       "styles": [
         "sidebar.css"
+      ]
+    },
+    "ext.acpedia.search": {
+      "scripts": [
+        "search.js"
+      ],
+      "dependencies": [
+        "mediawiki.searchSuggest",
+        "mediawiki.api",
+        "jquery"
       ]
     }
   },
