@@ -34,6 +34,15 @@ foreach (['ParserFunctions','Cite','CategoryTree','ImageMap','InputBox','Variabl
 $archiveExtension = dirname(__DIR__) . '/extensions/ACPediaArchive/extension.json';
 if (!file_exists($archiveExtension)) { $archiveExtension = $IP . '/extensions/ACPediaArchive/extension.json'; }
 wfLoadExtension('ACPediaArchive', $archiveExtension);
+// Expire old rendered pages after deploying a compatibility-extension update.
+// File times are stable between deployments; this is not a per-request epoch.
+$archiveEpoch = gmdate('YmdHis', max(
+    filemtime($archiveExtension),
+    filemtime(dirname($archiveExtension) . '/Hooks.php')
+));
+if (empty($wgCacheEpoch) || strcmp($archiveEpoch, $wgCacheEpoch) > 0) {
+    $wgCacheEpoch = $archiveEpoch;
+}
 // SQLite WAL supports concurrent reading during restoration; NORMAL retains transaction integrity.
 if ($wgDBtype === 'sqlite') {
     $wgDBservers = [[
