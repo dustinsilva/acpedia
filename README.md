@@ -2,6 +2,11 @@
 
 Restores the original **AC Community Wiki / ACPedia** into a supported MediaWiki runtime. Intended public address: **https://acpedia.celestro.com**.
 
+Public branding: **ACPedia — Revived by Celestro**. The original community logo,
+articles and surviving contributor records remain credited. Every page includes
+a community-credit footer linking to `Special:ACPediaCredits`, which distinguishes
+restoration work from original authorship and documents source/history limitations.
+
 This repository is a restoration project, not the earlier Ultimate Wiki prototype. It uses the original ACPedia article text, templates, categories, Vector skin, shared styling, logo and navigation. It does not substitute Fandom content or rewrite the archived articles.
 
 ## Ubuntu + existing Apache/MySQL: quick start

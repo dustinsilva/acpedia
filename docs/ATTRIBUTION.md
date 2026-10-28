@@ -1,5 +1,14 @@
 # Attribution and preservation
 
+The public name is **ACPedia — Revived by Celestro**. “Revived by Celestro” identifies
+the restoration and hosting work, not authorship of the recovered encyclopedia.
+The visible page subtitle links to Celestro.com, and every footer credits the
+ACPedia/AC Community Wiki community and credited creators. The public
+`Special:ACPediaCredits` page explains the source archives, surviving contributor
+records, original artwork and software credits, and known gaps in upload/history
+metadata. Existing copyright/footer notices, original article text, the recovered
+logo, and the `AC_Community_Wiki`/`ACCWiki` namespace routes are preserved.
+
 This restoration is based on the ACPedia/AC Community Wiki archives shared by the community-maintainer backup collection:
 https://drive.google.com/drive/folders/1IhL4mYC3P6bojeB005XTuhcYR5ApLC4q
 

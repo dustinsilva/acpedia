@@ -223,3 +223,17 @@ injected attributes and the fallback link. Browser tests inject the new search
 module into the live page without saving content and exercise title-word
 suggestions (`ralir`), wildcard input (`aeth*`) and changing queries without stale
 results. Server-side parser registration still needs post-deployment verification.
+
+## ACPedia — Revived by Celestro
+
+The site display name is ACPedia. A subtitle below each page heading reads
+“ACPedia — Revived by Celestro” and links to the wiki home and Celestro.com.
+The footer visibly credits original ACPedia/AC Community Wiki contributors and
+links to `Special:ACPediaCredits`. That page identifies Celestro's restoration
+role, the community backup sources, surviving contributor records, artwork and
+software credits, and the limits of latest-only imports and missing image metadata.
+
+The original logo, article text, existing footer notices and project namespace
+routes are preserved. Branding uses output/skin hooks and configuration; it does
+not edit imported articles or run a database migration. Pulling the branding
+commit on the server activates it without rerunning the installer or image audit.
